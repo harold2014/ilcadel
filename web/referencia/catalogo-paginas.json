@@ -1,0 +1,184 @@
+[
+  {
+    "slug": "certificaciones-de-calidad",
+    "titulo": "Certificaciones ISO y Acreditaciones",
+    "url": "https://ilcadel.org/certificaciones-de-calidad/",
+    "chars": 144,
+    "archivo": "contextos/certificaciones-de-calidad.md"
+  },
+  {
+    "slug": "libro-de-reclamaciones",
+    "titulo": "Libro de reclamaciones",
+    "url": "https://ilcadel.org/libro-de-reclamaciones/",
+    "chars": 267,
+    "archivo": "contextos/libro-de-reclamaciones.md"
+  },
+  {
+    "slug": "galeria-de-fotos-y-videos",
+    "titulo": "Galería de Fotos y Videos",
+    "url": "https://ilcadel.org/galeria-de-fotos-y-videos/",
+    "chars": 860,
+    "archivo": "contextos/galeria-de-fotos-y-videos.md"
+  },
+  {
+    "slug": "descargas-en-pdf-legislacion",
+    "titulo": "Descargas en PDF-Legislación",
+    "url": "https://ilcadel.org/descargas-en-pdf-legislacion/",
+    "chars": 838,
+    "archivo": "contextos/descargas-en-pdf-legislacion.md"
+  },
+  {
+    "slug": "nuestros-clientes",
+    "titulo": "NUESTROS CLIENTES",
+    "url": "https://ilcadel.org/nuestros-clientes/",
+    "chars": 141,
+    "archivo": "contextos/nuestros-clientes.md"
+  },
+  {
+    "slug": "nuestra-historia",
+    "titulo": "Nuestra Historia",
+    "url": "https://ilcadel.org/nuestra-historia/",
+    "chars": 4260,
+    "archivo": "contextos/nuestra-historia.md"
+  },
+  {
+    "slug": "nuestro-equipo",
+    "titulo": "Nuestro Equipo",
+    "url": "https://ilcadel.org/nuestro-equipo/",
+    "chars": 2019,
+    "archivo": "contextos/nuestro-equipo.md"
+  },
+  {
+    "slug": "servicios",
+    "titulo": "Servicios",
+    "url": "https://ilcadel.org/servicios/",
+    "chars": 2781,
+    "archivo": "contextos/servicios.md"
+  },
+  {
+    "slug": "gracias",
+    "titulo": "gracias",
+    "url": "https://ilcadel.org/gracias/",
+    "chars": 40,
+    "archivo": "contextos/gracias.md"
+  },
+  {
+    "slug": "centro-de-arbitraje",
+    "titulo": "Centro de Arbitraje",
+    "url": "https://ilcadel.org/centro-de-arbitraje/",
+    "chars": 8160,
+    "archivo": "contextos/centro-de-arbitraje.md"
+  },
+  {
+    "slug": "poder-por-acta-ante-centro-de-conciliacion",
+    "titulo": "PODER POR ACTA ANTE CENTRO DE CONCILIACION",
+    "url": "https://ilcadel.org/poder-por-acta-ante-centro-de-conciliacion/",
+    "chars": 0,
+    "archivo": "contextos/poder-por-acta-ante-centro-de-conciliacion.md"
+  },
+  {
+    "slug": "arbitraje-de-emergencia",
+    "titulo": "ARBITRAJE DE EMERGENCIA",
+    "url": "https://ilcadel.org/arbitraje-de-emergencia/",
+    "chars": 0,
+    "archivo": "contextos/arbitraje-de-emergencia.md"
+  },
+  {
+    "slug": "conciliacion-para-divorcio-rapido-2",
+    "titulo": "CONCILIACIÓN PARA DIVORCIO RÁPIDO",
+    "url": "https://ilcadel.org/conciliacion-para-divorcio-rapido-2/",
+    "chars": 0,
+    "archivo": "contextos/conciliacion-para-divorcio-rapido-2.md"
+  },
+  {
+    "slug": "conciliacion-en-accidentes-de-transito-2",
+    "titulo": "CONCILIACION EN ACCIDENTES DE TRANSITO",
+    "url": "https://ilcadel.org/conciliacion-en-accidentes-de-transito-2/",
+    "chars": 0,
+    "archivo": "contextos/conciliacion-en-accidentes-de-transito-2.md"
+  },
+  {
+    "slug": "conciliacion-en-accidentes-de-transito",
+    "titulo": "CONCILIACION EN ACCIDENTES DE TRANSITO",
+    "url": "https://ilcadel.org/conciliacion-en-accidentes-de-transito/",
+    "chars": 0,
+    "archivo": "contextos/conciliacion-en-accidentes-de-transito.md"
+  },
+  {
+    "slug": "audiencia-virtual-de-conciliacion",
+    "titulo": "AUDIENCIA VIRTUAL DE CONCILIACION",
+    "url": "https://ilcadel.org/audiencia-virtual-de-conciliacion/",
+    "chars": 0,
+    "archivo": "contextos/audiencia-virtual-de-conciliacion.md"
+  },
+  {
+    "slug": "conciliacion-pre-judicial-2",
+    "titulo": "CONCILIACION PRE JUDICIAL",
+    "url": "https://ilcadel.org/conciliacion-pre-judicial-2/",
+    "chars": 0,
+    "archivo": "contextos/conciliacion-pre-judicial-2.md"
+  },
+  {
+    "slug": "constitucion-de-empresas-en-linea",
+    "titulo": "CONSTITUCION DE EMPRESAS EN LINEA",
+    "url": "https://ilcadel.org/constitucion-de-empresas-en-linea/",
+    "chars": 0,
+    "archivo": "contextos/constitucion-de-empresas-en-linea.md"
+  },
+  {
+    "slug": "consulta-legal-y-arbitrajes-2",
+    "titulo": "CONSULTA LEGAL Y ARBITRAJES",
+    "url": "https://ilcadel.org/consulta-legal-y-arbitrajes-2/",
+    "chars": 0,
+    "archivo": "contextos/consulta-legal-y-arbitrajes-2.md"
+  },
+  {
+    "slug": "centro-de-conciliacion",
+    "titulo": "Centro de Conciliación",
+    "url": "https://ilcadel.org/centro-de-conciliacion/",
+    "chars": 8962,
+    "archivo": "contextos/centro-de-conciliacion.md"
+  },
+  {
+    "slug": "mesa-de-partes",
+    "titulo": "Mesa de Partes Virtual",
+    "url": "https://ilcadel.org/mesa-de-partes/",
+    "chars": 657,
+    "archivo": "contextos/mesa-de-partes.md"
+  },
+  {
+    "slug": "intermediacion-electronica-ante-diversas-entidades-del-estado",
+    "titulo": "INTERMEDIACION ELECTRONICA ANTE DIVERSAS ENTIDADES DEL ESTADO",
+    "url": "https://ilcadel.org/intermediacion-electronica-ante-diversas-entidades-del-estado/",
+    "chars": 0,
+    "archivo": "contextos/intermediacion-electronica-ante-diversas-entidades-del-estado.md"
+  },
+  {
+    "slug": "conciliacion-ambas-partes-en-el-dia",
+    "titulo": "CONCILIACION AMBAS PARTES EN EL DIA",
+    "url": "https://ilcadel.org/conciliacion-ambas-partes-en-el-dia/",
+    "chars": 0,
+    "archivo": "contextos/conciliacion-ambas-partes-en-el-dia.md"
+  },
+  {
+    "slug": "intermediacion-electronica-con-el-poder-judicial",
+    "titulo": "INTERMEDIACION ELECTRONICA CON EL PODER JUDICIAL",
+    "url": "https://ilcadel.org/intermediacion-electronica-con-el-poder-judicial/",
+    "chars": 0,
+    "archivo": "contextos/intermediacion-electronica-con-el-poder-judicial.md"
+  },
+  {
+    "slug": "contacto",
+    "titulo": "Contacto",
+    "url": "https://ilcadel.org/contacto/",
+    "chars": 2563,
+    "archivo": "contextos/contacto.md"
+  },
+  {
+    "slug": "inicio",
+    "titulo": "Inicio",
+    "url": "https://ilcadel.org/",
+    "chars": 10753,
+    "archivo": "contextos/inicio.md"
+  }
+]
