@@ -347,7 +347,7 @@
       { mark: 'SG', role: 'Secretaría General', phone: '+51 987 298 765', href: 'https://wa.me/51987298765?text=' + greeting },
       { mark: 'CA', role: 'Sede Canadá', phone: '+1 825 747 5773', href: 'https://wa.me/18257475773?text=' + greeting }
     ];
-    var bubble = '<svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5.2 16.2 4 20l3.8-1.1A8.2 8.2 0 1 0 5.2 16.2Z"/><path d="M8.8 10.6h6.4M8.8 13.6h3.6"/></svg>';
+    var bubble = '<svg aria-hidden="true" width="26" height="26" viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2a9.9 9.9 0 0 0-8.5 15l-1.4 5 5.1-1.3A9.9 9.9 0 1 0 12.04 2zm5.8 14.1c-.24.68-1.4 1.3-1.94 1.35-.5.05-1.12.07-1.8-.11a16.4 16.4 0 0 1-1.63-.6 12.7 12.7 0 0 1-4.9-4.33c-.36-.48-.86-1.3-.86-2.47 0-1.17.6-1.75.83-1.99.22-.24.48-.3.64-.3h.46c.15 0 .35-.06.55.42.2.5.68 1.68.74 1.8.06.12.1.26.02.42-.08.16-.12.26-.24.4-.12.14-.25.31-.36.42-.12.12-.24.25-.1.49.14.24.62 1.02 1.33 1.65.92.82 1.69 1.07 1.93 1.19.24.12.38.1.52-.06.14-.16.6-.7.76-.94.16-.24.32-.2.54-.12.22.08 1.4.66 1.64.78.24.12.4.18.46.28.06.1.06.58-.18 1.25z"/></svg>';
     var cross = '<svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M6 6l12 12M18 6 6 18"/></svg>';
     trigger.innerHTML = '<span class="wa-float__mark" aria-hidden="true">' + bubble + '</span><span class="wa-float__text"><span class="wa-float__kicker">WhatsApp</span><span class="wa-float__label">Escríbenos</span></span>';
 
@@ -385,8 +385,13 @@
       list.appendChild(link);
     });
 
+    var note = document.createElement('p');
+    note.className = 'wa-panel__note';
+    note.textContent = 'Se abre una conversación nueva en WhatsApp.';
+
     panel.appendChild(head);
     panel.appendChild(list);
+    panel.appendChild(note);
     trigger.parentNode.insertBefore(dock, trigger);
     dock.appendChild(panel);
     dock.appendChild(trigger);
