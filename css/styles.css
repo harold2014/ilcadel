@@ -2134,6 +2134,7 @@ ul { margin: 0; padding: 0; list-style: none; }
   }
   .nav .btn--navy { color: var(--white); }
   .nav .btn--outline-navy { color: var(--navy); }
+  .nav .btn--gold { color: var(--navy-deep); }
   .nav a:not(.btn) + .nav__cta-mobile { margin-top: 16px; }
 }
 @media (min-width: 1081px) {
