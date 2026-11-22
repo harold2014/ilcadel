@@ -13,6 +13,7 @@ class SitePageController extends Controller
         'arbitraje',
         'conciliacion',
         'defensa-legal',
+        'academia-juridica',
         'certificaciones',
         'contacto',
         'galeria',

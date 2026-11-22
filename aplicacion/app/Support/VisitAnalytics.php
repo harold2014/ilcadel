@@ -281,6 +281,7 @@ class VisitAnalytics
             'arbitraje' => 'Arbitraje',
             'conciliacion' => 'Conciliación',
             'defensa-legal' => 'Defensa legal',
+            'academia-juridica' => 'Academia jurídica',
             'certificaciones' => 'Certificaciones',
             'contacto' => 'Contacto',
             'galeria' => 'Galería',

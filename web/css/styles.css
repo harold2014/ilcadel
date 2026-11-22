@@ -1007,6 +1007,11 @@ ul { margin: 0; padding: 0; list-style: none; }
   gap: 20px;
 }
 .about__content .section-title { margin-top: 0; }
+.about__content > p {
+  font-size: 15.5px;
+  line-height: 1.65;
+  color: var(--gray);
+}
 .mv {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
@@ -1029,6 +1034,7 @@ ul { margin: 0; padding: 0; list-style: none; }
   line-height: 1.6;
   color: var(--gray);
 }
+.about > .prose { flex: 1 1 480px; min-width: 0; max-width: none; }
 .about > .with-figure__img {
   flex: 1 1 360px;
   max-width: 440px;
@@ -1917,6 +1923,99 @@ ul { margin: 0; padding: 0; list-style: none; }
 }
 .person a:hover { color: var(--gold-dark); }
 
+/* Nóminas destacadas (árbitros / peritos) */
+.nomina-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 28px;
+  margin-top: 36px;
+}
+.nomina-card {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 40px 36px;
+  min-height: 280px;
+  text-decoration: none;
+  color: inherit;
+  background: var(--white);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-sm);
+  border-top: 4px solid var(--gold);
+  transition: transform .25s ease, box-shadow .25s ease, border-color .25s ease;
+}
+.nomina-card:hover {
+  transform: translateY(-6px);
+  box-shadow: var(--shadow-md);
+  border-color: var(--gold);
+  color: inherit;
+}
+.nomina-card__icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 72px;
+  height: 72px;
+  border-radius: 18px;
+  background: rgba(198, 163, 74, 0.12);
+  color: var(--navy);
+  margin-bottom: 8px;
+}
+.nomina-card__label {
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  color: var(--gold-dark);
+}
+.nomina-card__title {
+  font-family: var(--font-serif);
+  font-size: clamp(28px, 3vw, 36px);
+  font-weight: 600;
+  line-height: 1.15;
+  color: var(--navy);
+}
+.nomina-card__meta {
+  font-size: 15px;
+  color: var(--gray);
+  flex-grow: 1;
+}
+.nomina-card__cta {
+  margin-top: 12px;
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--navy);
+}
+.nomina-card:hover .nomina-card__cta {
+  color: var(--gold-dark);
+}
+.hitos {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+.hitos th,
+.hitos td {
+  text-align: left;
+  padding: 14px 16px;
+  border-bottom: 1px solid var(--line);
+  vertical-align: top;
+}
+.hitos th {
+  font-size: 12px;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  color: var(--gold-dark);
+}
+.hitos td:first-child {
+  width: 88px;
+  font-family: var(--font-serif);
+  font-size: 22px;
+  font-weight: 600;
+  color: var(--navy);
+}
+
 /* Nóminas agrupadas en Institución */
 .rosters {
   display: grid;
@@ -2093,6 +2192,11 @@ ul { margin: 0; padding: 0; list-style: none; }
 .reveal.is-visible { opacity: 1; transform: none; }
 
 /* ---------- Responsive ---------- */
+@media (max-width: 1320px) {
+  .nav { gap: 4px 10px; font-size: 13.5px; }
+  .header__actions { gap: 8px; }
+  .header__cta { padding: 0 12px; font-size: 12.5px; }
+}
 @media (max-width: 1160px) {
   .respaldo__inner { grid-template-columns: 260px minmax(0, 1fr); }
   .respaldo__badges {
@@ -2104,7 +2208,7 @@ ul { margin: 0; padding: 0; list-style: none; }
   .steps { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .footer__grid { grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); }
 }
-@media (max-width: 1080px) {
+@media (max-width: 1160px) {
   .nav-toggle { display: inline-flex; }
   .header__actions { display: none; }
   .nav {
@@ -2137,11 +2241,12 @@ ul { margin: 0; padding: 0; list-style: none; }
   .nav .btn--gold { color: var(--navy-deep); }
   .nav a:not(.btn) + .nav__cta-mobile { margin-top: 16px; }
 }
-@media (min-width: 1081px) {
+@media (min-width: 1161px) {
   .nav .nav__cta-mobile { display: none; }
 }
 @media (max-width: 960px) {
-  .rosters { grid-template-columns: 1fr; }
+  .rosters,
+  .nomina-grid { grid-template-columns: 1fr; }
   .cards--areas { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 }
 @media (max-width: 860px) {
