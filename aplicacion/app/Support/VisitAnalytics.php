@@ -282,6 +282,7 @@ class VisitAnalytics
             'conciliacion' => 'Conciliación',
             'defensa-legal' => 'Defensa legal',
             'academia-juridica' => 'Academia jurídica',
+            'equipo' => 'Nuestro equipo',
             'certificaciones' => 'Certificaciones',
             'contacto' => 'Contacto',
             'galeria' => 'Galería',

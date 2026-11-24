@@ -12,7 +12,7 @@ Route::post('/reclamaciones', [ClaimController::class, 'store'])
     ->middleware('throttle:10,1');
 
 Route::get('/{page}.html', [SitePageController::class, 'show'])
-    ->where('page', 'index|institucion|arbitraje|conciliacion|defensa-legal|academia-juridica|certificaciones|contacto|galeria|mesa-de-partes|consulta|reclamaciones');
+    ->where('page', 'index|institucion|arbitraje|conciliacion|defensa-legal|academia-juridica|equipo|certificaciones|contacto|galeria|mesa-de-partes|consulta|reclamaciones');
 
 Route::get('/css/{path}', [SiteAssetController::class, 'css'])->where('path', '.*');
 Route::get('/js/{path}', [SiteAssetController::class, 'js'])->where('path', '.*');
