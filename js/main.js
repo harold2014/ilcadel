@@ -172,7 +172,8 @@
       nombre: 'Ingresa tu nombre completo.',
       telefono: 'Ingresa un teléfono válido (mínimo 7 dígitos).',
       correo: 'Ingresa un correo electrónico válido.',
-      mensaje: 'Cuéntanos brevemente tu consulta.'
+      mensaje: 'Cuéntanos brevemente tu consulta.',
+      autorizacion: 'Necesitamos tu autorización para atender la solicitud.'
     };
 
     function validateField(input) {
@@ -181,7 +182,9 @@
       var value = input.value.trim();
       var ok = true;
 
-      if (input.required && !value) ok = false;
+      if (input.type === 'checkbox') {
+        ok = !input.required || input.checked;
+      } else if (input.required && !value) ok = false;
       if (ok && input.type === 'email') ok = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(value);
       if (ok && input.type === 'tel') ok = value.replace(/\D/g, '').length >= 7;
       if (ok && input.type === 'file') ok = input.files && input.files.length > 0;
@@ -196,11 +199,12 @@
       return ok;
     }
 
-    var inputs = form.querySelectorAll('input[required], textarea[required]');
+    var inputs = form.querySelectorAll('input[required], textarea[required], select[required]');
     inputs.forEach(function (input) {
       input.addEventListener('blur', function () { validateField(input); });
+      input.addEventListener('change', function () { validateField(input); });
       input.addEventListener('input', function () {
-        if (input.closest('.field').classList.contains('has-error')) validateField(input);
+        if (input.closest('.field') && input.closest('.field').classList.contains('has-error')) validateField(input);
       });
     });
 
