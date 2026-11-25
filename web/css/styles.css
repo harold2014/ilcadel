@@ -2339,8 +2339,14 @@ ul { margin: 0; padding: 0; list-style: none; }
   object-fit: cover;
   object-position: center 12%;
 }
-.people-cols { columns: 2; column-gap: 36px; }
-.people-cols li { break-inside: avoid; }
+.roster { max-width: var(--container); text-align: left; }
+.prose ul.people-cols {
+  display: block;
+  width: 100%;
+  columns: 2;
+  column-gap: 48px;
+}
+.prose ul.people-cols li { break-inside: avoid; margin-bottom: 10px; }
 .policy {
   display: grid;
   grid-template-columns: minmax(280px, 0.82fr) minmax(0, 1.18fr);
@@ -2366,7 +2372,7 @@ ul { margin: 0; padding: 0; list-style: none; }
 }
 @media (max-width: 860px) {
   .policy { grid-template-columns: 1fr; }
-  .people-cols { columns: 1; }
+  .prose ul.people-cols { columns: 1; }
 }
 .team-card__body { padding: 22px 24px 28px; }
 .team-card__role {
